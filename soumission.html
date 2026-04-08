@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Soumission assurance auto</title>
+</head>
+
+<body class="fond">
+  <header>
+    <div class="en_tete">
+      <a href="index.html" class="logo">AssurFZ</a>
+
+      <nav class="menu">
+        <a href="index.html">Accueil</a>
+        <a href="soumission.html">Soumission</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="soumission-contenu">
+
+    <section class="soumission-intro">
+      <h1 class="s-titre">Soumission d'assurance auto</h1>
+      <p class="intro">Répondez aux questions suivantes pour obtenir votre soumission </p>
+    </section>
+
+    <form id="form-soumission">
+
+      <div>
+        <label for="genre" class="texte">Quel est votre genre?</label><br>
+        <select id="genre" name="genre" class="champ">
+          <option value="">Sélectionnez...</option>
+          <option value="femme">Femme</option>
+          <option value="homme">Homme</option>
+          <option value="autre">Autre</option>
+        </select>
+        <p id="err-genre" class="msg-erreur"></p>
+      </div>
+
+      <br>
+      <label for="naissance" class="texte">Quelle est votre date de naissance?</label><br>
+      <input type="date" id="naissance" name="naissance" class="champ">
+      <p id="err-naissance" class="msg-erreur"></p>
+      <br>
+      
+      <button type="submit" id="button-1" class="bouton-soumission">Suivant</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

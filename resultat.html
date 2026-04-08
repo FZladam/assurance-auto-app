@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Résultats de la soumission</title>
+</head>
+
+<body class="fond">
+    <header>
+        <div class="en_tete">
+            <a href="index.html" class="logo">AssurFZ</a>
+
+            <nav class="menu">
+                <a href="index.html">Accueil</a>
+                <a href="soumission.html">Soumission</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contenu-resultat">
+        <h1 class="pas-produit">Résultat de votre soumission</h1>
+        <h2 class="msg">Voici le coût de votre soumission <br> d'assurance auto :</h2>
+
+        <p class="montant">Prix annuel estimé :</p><br>
+        <p id="prix-annuel" class="prix"></p><br>
+
+        <p class="montant">Prix mensuelle :</p><br>
+        <p id="prix-mensuel" class="prix"></p><br>
+
+        <button class="resoumission" onclick="location.href='soumission.html'">Faire une nouvelle soumission</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

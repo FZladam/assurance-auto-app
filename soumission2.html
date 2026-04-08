@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soumission assurance auto</title>
+</head>
+
+<body class="fond">
+    <header>
+        <div class="en_tete">
+            <a href="index.html" class="logo">AssurFZ</a>
+
+            <nav class="menu">
+                <a href="index.html">Accueil</a>
+                <a href="soumission.html">Soumission</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="soumission-contenu">
+
+        <section class="soumission-intro">
+            <h1 class="s-titre">Soumission d'assurance auto</h1>
+            <p class="intro">Répondez aux questions suivantes pour obtenir votre soumission </p>
+        </section>
+
+        <form id="form-soumission2">
+
+            <label for="valeur" class="texte">Quelle est la valeur d'achat de votre véhicule?</label><br>
+            <input type="number" id="valeur" name="valeur" placeholder="Ex. 25000" min="0" step="1" class="champ">
+            <p id="err-valeur" class="msg-erreur"></p>
+            <br>
+
+            <button type="submit" id="button-2" class="bouton-soumission">Suivant</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
