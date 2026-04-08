@@ -1,4 +1,4 @@
-# assurance-auto-app
+# AssurFZ
 
 ## Description
 
@@ -22,7 +22,7 @@ Application web qui permet de faire une soumission d'assurance auto en répondan
 ## Structure du projet
 - `index.html` : la page d'accueil
 - `soumission.html`, `soumission2.html`, `soumission3.html`  : les différentes étapes du formulaire
-- `resultat.html` : page qui affiche le pris et le résultat final
+- `resultat.html` : page qui affiche le prix et le résultat final
 - `pas-de-produit.html` : page affichée si la demande est refusée
-- `script.js` : contient la logique(validation et les calculs) 
+- `script.js` : contient la logique (validation + calcul) 
 - `style.css` : tout le design
