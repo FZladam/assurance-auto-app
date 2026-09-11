@@ -4,7 +4,7 @@
 
 AssurFZ est un projet universitaire réalisé dans le cadre de mes études en informatique.
 
-J'ai créé une application web qui permet de faire une soumission d'assurance auto. L'utilisateur répond à plusieurs questions sur son profil, son véhicule et ses réclamations. L'application vérifie les réponses et affiche un prix annuel et mensuel estimé.
+J'ai créé une application web qui permet de faire une soumission d'assurance auto. L'utilisateur répond à plusieurs questions sur son profil, son véhicule et ses réclamations. L'application vérifie les réponses et affiche un prix annuel et un prix mensuel estimés.
 
 ## Fonctionnalités
 
@@ -14,7 +14,7 @@ Le site permet de :
 - vérifier les informations entrées par l'utilisateur
 - afficher des messages lorsqu'une réponse est manquante
 - calculer un prix selon les réponses
-- afficher le prix annuel et un prix mensuel estimés
+- afficher un prix annuel et un prix mensuel estimés
 - indiquer lorsqu'aucun produit n'est disponible
 - recommencer une nouvelle soumission
 
@@ -45,7 +45,7 @@ Il suffit d'ouvrir le fichier `index.html` dans un navigateur.
 
 ## Ce que j'ai appris
 
-Ce projet m'a permis de mieux comprendre comment utiliser JavaScript avec des pages HTML. J'ai appris à vérifier les réponses d'un formulaire, à afficher des messages d'erreur et à transmettre les informations d'une page à une autre avec LocalStorage.
+Ce projet m'a permis de mieux comprendre comment utiliser JavaScript avec des pages HTML. J'ai appris à vérifier les réponses d'un formulaire, à afficher des messages d'erreur et à transmettre les informations d'une page à une autre avec localStorage.
 
 ## Auteure
 

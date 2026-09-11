@@ -160,7 +160,7 @@ function pageSoumission2(event) {
 
     //Vérification de la valeur
     if (!valeurValue) {
-        errValeur.textContent = "Veuillez entrez une valeur pour votre véhicule.";
+        errValeur.textContent = "Veuillez entrer une valeur pour votre véhicule.";
         valeur.classList.add("champ-invalide");
         valide = false;
     }
@@ -229,7 +229,7 @@ function pageSoumission3(event) {
 
     //Vérification caméra de recul
     if (!camera) {
-        errCamera.textContent = "Veuillez indiquer si votre véhicule à une caméra de recul.";
+        errCamera.textContent = "Veuillez indiquer si votre véhicule a une caméra de recul.";
         valide = false;
     }
 
