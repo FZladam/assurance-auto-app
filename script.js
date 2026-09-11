@@ -255,7 +255,7 @@ function pageSoumission3(event) {
     var montantTotal = 0;
     var nbrRec = 0;
 
-    if (reclamations.value === "oui") {
+    if (reclamations && reclamations.value === "oui") {
         nbrRec = Number(nbrReclamations.value);
 
         for (var i = 1; i <= nbrRec; i++) {
@@ -299,7 +299,7 @@ function pageSoumission3(event) {
             return;
         }
 
-        if (nbrReclamations.value > 4) {
+        if (reclamations.value === "oui" && Number(nbrReclamations.value) > 4) {
             window.location.href = "pas-de-produit.html";
             return;
         }
