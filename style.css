@@ -12,7 +12,7 @@
   background-position: center right;
   min-height: 100vh;
   color: white;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /*=========== header ===========*/
@@ -196,7 +196,8 @@ input[type="radio"] {
   font-size: 1.3rem;
   font-weight: 600;
   cursor: pointer;
-  margin-left: 38%;
+  display: block;
+  margin: 0 auto;
 }
 
 /*=========== Pages soumission3.html ===========*/
